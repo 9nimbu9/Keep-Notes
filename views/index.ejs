@@ -1,0 +1,24 @@
+<%-include("header")-%>    
+    
+    <h1 class="head">Keep Notes</h1>
+    <h2><img src="CSS/Email.png" alt=""><%=uName%></h2>
+    <form action="/notes", method="post">
+        <textarea class="type" rows="7.5" name="enteredText"></textarea>
+        <button class="del" type="submit"><img src="CSS/add.png" alt=""></button>
+    </form>
+    <div class="row">
+        <%for(var i=0; i<text.length;i++){%>
+            <%if(text[i].user===userId){%>
+                <!-- <div class="col-lg-3"> -->
+                    <div class="card cds">
+                        <form action="/delete" method="post">
+                            <button class="del" type="submit" name="btn" value="<%=text[i].id%>"><img src="CSS/Delete.png" alt=""></button>
+                            <%=text[i].text%>
+                        </form>
+                    </div>      
+                <!-- </div> -->
+            <%}%>
+        <%}%>
+    </div>
+
+<%-include("footer")-%>    

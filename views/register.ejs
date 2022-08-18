@@ -1,0 +1,29 @@
+<%-include("header")-%>    
+
+    <form action="/register" method="post">
+        <div class="row">
+            <div class="col-lg-6 left">
+                <div class="card cl">
+                    <h1 class="heading">KEEP NOTES</h1>
+                </div>
+            </div>
+            <div class="col-lg-6 left">
+                <div class="card cr">
+                    <img class="loginImg" src="CSS/Login.png" alt="">
+                    <h1 style="margin: 2% auto; color: black;font-family: 'McLaren', cursive">Register</h1>
+                    <input type="text" placeholder="User Name" name="uName" autocomplete="off" class="userName enter">
+                    <br>
+                    <input type="email" placeholder="Email" name="remail" autocomplete="off" class="email enter">
+                    <br>
+                    <input type="password" placeholder="Password" name="rpassword" class="password enter">
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark">Register</button>
+                    <br>
+                    <span>Already have an account? <a style="color: #EAEAEA" href="/">Login</a></span>
+                </div>
+            </div>
+        </div>
+    </form>   
+    
+<%-include("footer")-%>    
+

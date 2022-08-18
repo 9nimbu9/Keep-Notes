@@ -1,0 +1,134 @@
+body
+{
+    background-color:#FF2E63;
+    text-align: center;
+    min-height: 800px;
+    background-image: -webkit-linear-gradient(113.5deg, #343225 50%, #08D9D6 50%);
+}
+
+.heading
+{
+    color: #EAEAEA;
+    font-size: 400%;
+    /* margin: 35% auto 5% auto; */
+    text-align: center;
+    font-family: 'McLaren', cursive;
+}
+.head
+{
+    color: #EAEAEA;
+    text-align: left;
+    font-family: 'McLaren', cursive;
+    margin: auto;
+}
+textarea
+{
+    width: 400px;
+    border-radius: 10px;
+    margin: 2%;
+    border-width: thin;
+}
+input
+{
+    width: 80%;
+    height: 40px;
+    padding: 0.5rem;
+}
+
+.btn
+{
+    margin: 5% auto;
+    width: 80%;
+    height: 40px;
+}
+::placeholder
+{
+    color: black;
+}
+.enter
+{
+    color: #EAEAEA;
+    font-size: large;
+    border-width: thin;
+    margin: 0% auto;
+    border:none;
+    background-color: #FF2E63;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.card
+{
+    text-align: left;
+    padding: 2%;
+    margin-bottom: 5%;
+    width: auto;
+    background-color: black;
+    color:beige;
+}
+.container-fluid
+{
+    margin: 4%;
+}
+span
+{
+    text-align: center;
+    font-size: 90%;
+    color: black;
+}
+img
+{
+    width: 40px;
+    height: 40px;  
+}
+.del
+{
+    padding: 0%;
+    border: 0;
+    background-color: transparent;
+    text-align: end;
+}
+.row
+{
+    margin: 2.5% 10%;
+}
+
+.left
+{   
+    padding: 0%;
+}
+.cl
+{
+    background-color: black;
+    border-radius: 20px 0 0 20px;
+    height: 150%;
+}
+.cr
+{
+    padding: 0%;
+    border-radius: 0 20px 20px 0;
+    background-color: #FF2E63;
+    height: 150%;
+}
+.loginImg
+{
+    margin: 5% auto 0;
+    width: 90px;
+    height: 90px;
+}
+.cds
+{
+    margin:2%;
+    width: auto;
+    height: 100%;
+    max-height: fit-content;
+    max-width: 350px;
+}
+.quote
+{
+    text-align: center;
+    font-size: larger;
+}
+.le
+{
+    margin: auto;
+}
